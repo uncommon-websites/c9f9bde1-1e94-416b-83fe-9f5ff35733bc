@@ -1,21 +1,18 @@
 <script lang="ts">
-    // Images placeholders
-    const heroImage = "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?q=80&w=2560&auto=format&fit=crop";
-    const deskImage = "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=1000&auto=format&fit=crop";
-    const glassesImage = "https://images.unsplash.com/photo-1590525626244-6720d234853f?q=80&w=1000&auto=format&fit=crop";
-    const bedroomImage = "https://images.unsplash.com/photo-1505693416388-b034680950ec?q=80&w=2560&auto=format&fit=crop";
-    const bedCornerImage = "https://images.unsplash.com/photo-1616594039964-40891a909d93?q=80&w=1000&auto=format&fit=crop";
-    const woodDetailImage = "https://images.unsplash.com/photo-1507089947368-19c1da9775ae?q=80&w=1000&auto=format&fit=crop";
-    const shelfDetailImage = "https://images.unsplash.com/photo-1595515106962-5907659ed678?q=80&w=1000&auto=format&fit=crop";
-    const shelfFullImage = "https://images.unsplash.com/photo-1594040226829-7f251ab46d80?q=80&w=1000&auto=format&fit=crop";
-    const livingRoomImage = "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?q=80&w=2560&auto=format&fit=crop";
-    const hallwayImage = "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=1000&auto=format&fit=crop";
-    const kitchenImage = "https://images.unsplash.com/photo-1600585154526-990dced4db0d?q=80&w=1000&auto=format&fit=crop";
-    const terraceImage = "https://images.unsplash.com/photo-1600607687644-c7171b42498f?q=80&w=2560&auto=format&fit=crop";
-    const woodJoineryImage = "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7?q=80&w=1000&auto=format&fit=crop";
-    const kitchenIslandImage = "https://images.unsplash.com/photo-1600607686527-6fb886090705?q=80&w=1000&auto=format&fit=crop";
-    const ctaLeft = "https://images.unsplash.com/photo-1497366754035-f200968a6e72?q=80&w=2000&auto=format&fit=crop";
-    const ctaRight = "https://images.unsplash.com/photo-1497366811353-6870744d04b2?q=80&w=2000&auto=format&fit=crop";
+    // Images placeholders - horse racing themed
+    const heroImage = "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?q=80&w=2560&auto=format&fit=crop";
+    const horse1 = "https://images.unsplash.com/photo-1553284965-83fd3e82fa5a?q=80&w=1000&auto=format&fit=crop";
+    const horse2 = "https://images.unsplash.com/photo-1551884831-bbf3cdc6469e?q=80&w=1000&auto=format&fit=crop";
+    const training = "https://images.unsplash.com/photo-1534279655-c0b8f8d0b6f1?q=80&w=2560&auto=format&fit=crop";
+    const stableImage = "https://images.unsplash.com/photo-1598632640487-6ea4a4e8b963?q=80&w=1000&auto=format&fit=crop";
+    const horseDetail = "https://images.unsplash.com/photo-1553284965-83fd3e82fa5a?q=80&w=1000&auto=format&fit=crop";
+    const trackImage = "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?q=80&w=2560&auto=format&fit=crop";
+    const horse3 = "https://images.unsplash.com/photo-1598632640487-6ea4a4e8b963?q=80&w=1000&auto=format&fit=crop";
+    const facilityImage = "https://images.unsplash.com/photo-1534279655-c0b8f8d0b6f1?q=80&w=2560&auto=format&fit=crop";
+    const raceDay = "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?q=80&w=1000&auto=format&fit=crop";
+    const ownerExperience = "https://images.unsplash.com/photo-1551884831-bbf3cdc6469e?q=80&w=1000&auto=format&fit=crop";
+    const ctaLeft = "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?q=80&w=2000&auto=format&fit=crop";
+    const ctaRight = "https://images.unsplash.com/photo-1553284965-83fd3e82fa5a?q=80&w=2000&auto=format&fit=crop";
 
 </script>
 
@@ -23,79 +20,139 @@
     <!-- Hero Section -->
     <section class="w-full mb-16 md:mb-24 px-4 md:px-6 max-w-[1600px] mx-auto">
         <div class="relative w-full aspect-[16/9] md:aspect-[21/9] overflow-hidden">
-            <img src={heroImage} alt="Kent Avenue Penthouse" class="w-full h-full object-cover" />
-            <button class="absolute bottom-6 right-6 bg-transparent border border-white/50 text-white px-4 py-2 text-xs uppercase tracking-widest hover:bg-white hover:text-black transition-colors flex items-center gap-2">
-                Share
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 3.75v4.5m0-4.5h4.5m-4.5 0L9 9M3.75 20.25v-4.5m0 4.5h4.5m-4.5 0L9 15M20.25 3.75h-4.5m4.5 0v4.5m0-4.5L15 9m5.25 11.25h-4.5m4.5 0v-4.5m0 4.5L15 15" />
-                </svg>
-            </button>
+            <img src={heroImage} alt="Elite Thoroughbred Racing" class="w-full h-full object-cover" />
+            <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent"></div>
+            <div class="absolute bottom-0 left-0 right-0 p-8 md:p-12 text-white">
+                <h1 class="font-display text-4xl md:text-6xl lg:text-7xl mb-4 max-w-4xl">Elite Thoroughbred Ownership, Redefined</h1>
+                <p class="text-lg md:text-xl font-light max-w-2xl opacity-90">Experience the thrill of racehorse ownership through transparent partnerships and professional bloodstock management.</p>
+            </div>
         </div>
     </section>
 
-    <!-- Project Info -->
+    <!-- Intro Section -->
     <section class="max-w-[1200px] mx-auto px-6 mb-24 md:mb-32">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-24">
             <div>
-                <h1 class="font-display text-4xl md:text-5xl text-gray-900 mb-8">Kent Avenue Penthouse</h1>
+                <h2 class="font-display text-3xl md:text-4xl text-gray-900 mb-8">A New Standard in Racehorse Ownership</h2>
                 <div class="text-gray-600 text-sm leading-relaxed space-y-4 max-w-md font-light">
                     <p>
-                        Perched high above the bustling city of New York, with magnificent views of the East River and the iconic Manhattan skyline, this unique penthouse flat combines warm minimalism and tactile materiality.
+                        Tropical Racing delivers elite Thoroughbred ownership experiences through aligned co-ownership structures, transparent flat-fee pricing, and professional bloodstock management.
                     </p>
                     <p>
-                        The flat, which was designed and decorated by Norm Architects, strikes a perfect balance between New York's raw industrial vibe and a timeless Scandinavian aesthetic.
+                        We've reimagined racehorse partnerships for the modern enthusiast—eliminating opaque syndicates and surprise costs while maintaining the highest standards of care and performance.
                     </p>
                 </div>
             </div>
             <div class="grid grid-cols-2 gap-y-6 text-[11px] uppercase tracking-wider">
-                <div class="text-gray-400">Private residence</div>
-                <div class="text-gray-900">New York City, USA</div>
+                <div class="text-gray-400">Business Model</div>
+                <div class="text-gray-900">Curated Thoroughbred Partnerships</div>
 
-                <div class="text-gray-400">Architect</div>
-                <div class="text-gray-900">Norm Architects</div>
+                <div class="text-gray-400">Target Partners</div>
+                <div class="text-gray-900">Affluent Racing Enthusiasts</div>
 
-                <div class="text-gray-400">Photographer</div>
-                <div class="text-gray-900">Jonas Bjerre-Poulsen</div>
+                <div class="text-gray-400">Approach</div>
+                <div class="text-gray-900">Transparent & Aligned</div>
 
                 <div class="col-span-2 pt-6 border-t border-gray-100 mt-2">
-                    <div class="text-gray-400 mb-1">Product</div>
-                    <div class="text-gray-900">Dinesen HeartOak, Natural Oil, Dinesen Collection</div>
+                    <div class="text-gray-400 mb-1">Key Differentiator</div>
+                    <div class="text-gray-900">Flat-fee structure with aligned upside economics</div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Image Grid 1 -->
+    <!-- Why Choose Us Section -->
     <section class="max-w-[1600px] mx-auto px-6 mb-24 md:mb-32">
-        <div class="grid grid-cols-1 md:grid-cols-12 gap-6 items-start">
-            <div class="md:col-span-5 md:col-start-2">
-                <img src={deskImage} alt="Desk detail" class="w-full aspect-[3/4] object-cover mb-4" />
-                <p class="text-xs text-gray-400 font-light max-w-xs mt-8 leading-relaxed">
-                    The dwelling was designed to provide a calm refuge from the hectic pulse of the city, with a minimalist interior that combines warm, functional and aesthetic qualities to create a solving and harmonious setting.
-                </p>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+            <div class="text-center">
+                <div class="w-16 h-16 mx-auto mb-6 flex items-center justify-center bg-primary-50 text-primary-600 rounded-full">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                    </svg>
+                </div>
+                <h3 class="font-display text-xl mb-3">Complete Transparency</h3>
+                <p class="text-sm text-gray-600 font-light leading-relaxed">Flat-fee structure with no hidden costs. You know exactly what you're paying, and we share in the upside together.</p>
             </div>
-            <div class="md:col-span-5 md:col-start-8 md:mt-32">
-                 <img src={glassesImage} alt="Glasses detail" class="w-full aspect-square object-cover" />
+            <div class="text-center">
+                <div class="w-16 h-16 mx-auto mb-6 flex items-center justify-center bg-primary-50 text-primary-600 rounded-full">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 0 1-1.043 3.296 3.745 3.745 0 0 1-3.296 1.043A3.745 3.745 0 0 1 12 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 0 1-3.296-1.043 3.745 3.745 0 0 1-1.043-3.296A3.745 3.745 0 0 1 3 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 0 1 1.043-3.296 3.746 3.746 0 0 1 3.296-1.043A3.746 3.746 0 0 1 12 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 0 1 3.296 1.043 3.746 3.746 0 0 1 1.043 3.296A3.745 3.745 0 0 1 21 12Z" />
+                    </svg>
+                </div>
+                <h3 class="font-display text-xl mb-3">Professional Management</h3>
+                <p class="text-sm text-gray-600 font-light leading-relaxed">Expert bloodstock selection and care. Every horse receives world-class training and veterinary attention.</p>
+            </div>
+            <div class="text-center">
+                <div class="w-16 h-16 mx-auto mb-6 flex items-center justify-center bg-primary-50 text-primary-600 rounded-full">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M18 18.72a9.094 9.094 0 0 0 3.741-.479 3 3 0 0 0-4.682-2.72m.94 3.198.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0 1 12 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 0 1 6 18.719m12 0a5.971 5.971 0 0 0-.941-3.197m0 0A5.995 5.995 0 0 0 12 12.75a5.995 5.995 0 0 0-5.058 2.772m0 0a3 3 0 0 0-4.681 2.72 8.986 8.986 0 0 0 3.74.477m.94-3.197a5.971 5.971 0 0 0-.94 3.197M15 6.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm6 3a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Zm-13.5 0a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Z" />
+                    </svg>
+                </div>
+                <h3 class="font-display text-xl mb-3">Aligned Interests</h3>
+                <p class="text-sm text-gray-600 font-light leading-relaxed">We succeed when you succeed. Our economics are aligned with yours through shared upside participation.</p>
             </div>
         </div>
     </section>
 
-    <!-- Full Width Image -->
+    <!-- Featured Horse Section -->
     <section class="max-w-[1600px] mx-auto px-6 mb-24 md:mb-32">
-        <img src={bedroomImage} alt="Bedroom view" class="w-full aspect-[16/9] md:aspect-[21/9] object-cover" />
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-6 items-start">
+            <div class="md:col-span-5 md:col-start-2">
+                <img src={horse1} alt="Featured Thoroughbred" class="w-full aspect-[3/4] object-cover mb-4" />
+                <p class="text-xs text-gray-400 font-light max-w-xs mt-8 leading-relaxed">
+                    Each horse in our portfolio is carefully selected for pedigree, conformation, and racing potential. We partner with leading trainers and bloodstock agents to identify exceptional prospects.
+                </p>
+            </div>
+            <div class="md:col-span-5 md:col-start-8 md:mt-32">
+                 <img src={horse2} alt="Thoroughbred portrait" class="w-full aspect-square object-cover" />
+            </div>
+        </div>
+    </section>
+
+    <!-- Full Width Training Image -->
+    <section class="max-w-[1600px] mx-auto px-6 mb-24 md:mb-32">
+        <img src={training} alt="Training session" class="w-full aspect-[16/9] md:aspect-[21/9] object-cover" />
+    </section>
+
+    <!-- How It Works -->
+    <section class="max-w-[1200px] mx-auto px-6 mb-24 md:mb-32">
+        <h2 class="font-display text-3xl md:text-4xl text-center mb-16">How Partnership Works</h2>
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+            <div class="relative">
+                <div class="text-6xl font-display text-primary-100 mb-4">01</div>
+                <h3 class="text-lg font-bold mb-2">Curated Selection</h3>
+                <p class="text-sm text-gray-600 font-light leading-relaxed">We identify exceptional Thoroughbred prospects through our network of bloodstock experts and trainers.</p>
+            </div>
+            <div class="relative">
+                <div class="text-6xl font-display text-primary-100 mb-4">02</div>
+                <h3 class="text-lg font-bold mb-2">Transparent Pricing</h3>
+                <p class="text-sm text-gray-600 font-light leading-relaxed">Flat-fee structure with clear partnership terms. No surprise costs or hidden fees.</p>
+            </div>
+            <div class="relative">
+                <div class="text-6xl font-display text-primary-100 mb-4">03</div>
+                <h3 class="text-lg font-bold mb-2">Professional Care</h3>
+                <p class="text-sm text-gray-600 font-light leading-relaxed">World-class training, veterinary care, and race placement managed by experienced professionals.</p>
+            </div>
+            <div class="relative">
+                <div class="text-6xl font-display text-primary-100 mb-4">04</div>
+                <h3 class="text-lg font-bold mb-2">Shared Success</h3>
+                <p class="text-sm text-gray-600 font-light leading-relaxed">Aligned economics mean we share in the upside. Your success is our success.</p>
+            </div>
+        </div>
     </section>
 
     <!-- Image Grid 2 -->
     <section class="max-w-[1600px] mx-auto px-6 mb-24 md:mb-32">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div>
-                <img src={bedCornerImage} alt="Bedroom corner" class="w-full aspect-[3/4] object-cover" />
+                <img src={stableImage} alt="Premium stable facilities" class="w-full aspect-[3/4] object-cover" />
             </div>
             <div class="flex flex-col justify-between">
-                <img src={woodDetailImage} alt="Wood detail" class="w-full aspect-[3/4] object-cover mb-8" />
+                <img src={horseDetail} alt="Thoroughbred close-up" class="w-full aspect-[3/4] object-cover mb-8" />
                 <div class="max-w-xs ml-auto">
                      <p class="text-xs text-gray-400 font-light leading-relaxed">
-                        Dinesen Oak plays a central role in the bespoke solutions that define the interior. The timeless quality of the wood is highlighted in custom-made features designed to match the feel and functions of the flat. These specially designed elements include a bedframe, a wardrobe, a shelving unit and an integrated desk, all made of Dinesen Oak, which adds a warm and organic touch to the space.
+                        Every aspect of horse care is managed with meticulous attention to detail. From nutrition and training regimens to veterinary oversight and race strategy, our team ensures each horse receives the support needed to perform at their peak.
                     </p>
                 </div>
             </div>
@@ -106,91 +163,117 @@
     <section class="max-w-[1600px] mx-auto px-6 mb-24 md:mb-32">
         <div class="grid grid-cols-1 md:grid-cols-12 gap-6 items-end">
              <div class="md:col-span-5">
-                <img src={shelfDetailImage} alt="Shelf detail" class="w-full aspect-[4/5] object-cover" />
+                <img src={horse3} alt="Horse in paddock" class="w-full aspect-[4/5] object-cover" />
             </div>
             <div class="md:col-span-7">
-                <img src={shelfFullImage} alt="Shelf full view" class="w-full aspect-[4/3] object-cover" />
+                <img src={trackImage} alt="Race track view" class="w-full aspect-[4/3] object-cover" />
             </div>
         </div>
     </section>
 
-    <!-- Large Living Room Image -->
+    <!-- Large Facility Image -->
     <section class="w-full mb-24 md:mb-32">
-        <img src={livingRoomImage} alt="Living room" class="w-full h-[80vh] object-cover" />
+        <img src={facilityImage} alt="Training facilities" class="w-full h-[80vh] object-cover" />
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="max-w-[1200px] mx-auto px-6 mb-24 md:mb-32">
+        <h2 class="font-display text-3xl md:text-4xl text-center mb-16">What Our Partners Say</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+            <div class="border-l-2 border-primary-600 pl-6">
+                <p class="text-gray-700 mb-6 leading-relaxed italic">
+                    "After years of frustration with traditional syndicates and their surprise costs, Tropical Racing's transparent approach was refreshing. I finally feel like a true partner, not just a checkbook."
+                </p>
+                <div class="text-sm">
+                    <div class="font-bold">Michael R.</div>
+                    <div class="text-gray-500">Partner since 2023</div>
+                </div>
+            </div>
+            <div class="border-l-2 border-primary-600 pl-6">
+                <p class="text-gray-700 mb-6 leading-relaxed italic">
+                    "The professionalism and care that goes into every aspect of horse management is evident. From bloodstock selection to race day, I trust the Tropical Racing team completely."
+                </p>
+                <div class="text-sm">
+                    <div class="font-bold">Sarah L.</div>
+                    <div class="text-gray-500">Partner since 2022</div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!-- Image Grid 4 & Text -->
     <section class="max-w-[1600px] mx-auto px-6 mb-24 md:mb-32">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-16 items-start">
-            <img src={hallwayImage} alt="Hallway" class="w-full aspect-[3/4] object-cover" />
+            <img src={raceDay} alt="Race day excitement" class="w-full aspect-[3/4] object-cover" />
             <div class="md:pt-32">
-                 <img src={kitchenImage} alt="Kitchen detail" class="w-full aspect-[3/4] object-cover" />
+                 <img src={ownerExperience} alt="Owner experience" class="w-full aspect-[3/4] object-cover" />
             </div>
         </div>
         <div class="flex justify-end">
              <p class="text-xs text-gray-400 font-light max-w-md leading-relaxed">
-                The tactile materials selected for the interior solutions create an experience that elevates the design from being merely visual into a strong sensuous impact. Every element of the interior was carefully selected to support the calm and harmonious atmosphere. Dinesen Oak make a contribution that is not just aesthetic but also functional as the natural and durable materials blend perfectly into Norm Architects' stringent and simple design expression.
+                Racehorse ownership through Tropical Racing combines the thrill of elite competition with the peace of mind that comes from transparent pricing and professional management. Every partner receives regular updates, access to training sessions, and the full race day experience—from paddock to winner's circle.
             </p>
         </div>
     </section>
 
-    <!-- Terrace Image -->
-    <section class="w-full mb-24 md:mb-32">
-        <img src={terraceImage} alt="Terrace" class="w-full h-[70vh] object-cover" />
-    </section>
-
-    <!-- Bottom Text -->
-    <section class="max-w-[1600px] mx-auto px-6 mb-24 md:mb-32">
-        <div class="max-w-md">
-            <p class="text-xs text-gray-400 font-light leading-relaxed">
-                With a high priority on the sourcing of materials and a keen eye for details, Norm Architects demonstrate their dedication to quality and timeless design in their design of Kent Avenue Penthouse. The result is a dwelling where aesthetic and functional qualities come together in a harmonious, modern and luxurious space - a genuine tribute to natural materials and their ability to ennoble calm in an otherwise hectic world.
-            </p>
-        </div>
-    </section>
-
-    <!-- Final Grid -->
-    <section class="max-w-[1600px] mx-auto px-6 mb-32 md:mb-40">
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <img src={woodJoineryImage} alt="Wood joinery" class="w-full aspect-[3/4] object-cover" />
-            <div class="pt-20">
-                <img src={kitchenIslandImage} alt="Kitchen island" class="w-full aspect-[3/4] object-cover" />
+    <!-- Stats Section -->
+    <section class="bg-gray-950 text-white py-24 mb-24 md:mb-32">
+        <div class="max-w-[1200px] mx-auto px-6">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-12 text-center">
+                <div>
+                    <div class="text-4xl md:text-5xl font-display text-primary-400 mb-2">$0</div>
+                    <div class="text-sm text-gray-400 uppercase tracking-wider">Hidden Fees</div>
+                </div>
+                <div>
+                    <div class="text-4xl md:text-5xl font-display text-primary-400 mb-2">100%</div>
+                    <div class="text-sm text-gray-400 uppercase tracking-wider">Transparency</div>
+                </div>
+                <div>
+                    <div class="text-4xl md:text-5xl font-display text-primary-400 mb-2">Elite</div>
+                    <div class="text-sm text-gray-400 uppercase tracking-wider">Bloodstock</div>
+                </div>
+                <div>
+                    <div class="text-4xl md:text-5xl font-display text-primary-400 mb-2">Aligned</div>
+                    <div class="text-sm text-gray-400 uppercase tracking-wider">Economics</div>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Share Section -->
-    <section class="max-w-[1600px] mx-auto px-6 mb-32">
-        <h3 class="font-display text-2xl mb-6">Share</h3>
-        <div class="flex gap-6 text-xs text-gray-400 uppercase tracking-wide">
-            <a href="#" class="hover:text-black transition-colors">Pinterest</a>
-            <a href="#" class="hover:text-black transition-colors">Twitter</a>
-            <a href="#" class="hover:text-black transition-colors">E-mail</a>
-            <a href="#" class="hover:text-black transition-colors">LinkedIn</a>
-            <a href="#" class="hover:text-black transition-colors">Facebook</a>
+    <!-- Bottom Text -->
+    <section class="max-w-[1200px] mx-auto px-6 mb-24 md:mb-32 text-center">
+        <div class="max-w-2xl mx-auto">
+            <h2 class="font-display text-3xl md:text-4xl mb-6">Ready to Experience Elite Ownership?</h2>
+            <p class="text-gray-600 font-light leading-relaxed mb-8">
+                Join a community of passionate racing enthusiasts who demand transparency, professionalism, and aligned interests. Discover how Tropical Racing is redefining Thoroughbred ownership.
+            </p>
+            <a href="#apply" class="inline-block bg-primary-600 text-white px-8 py-4 text-sm uppercase tracking-widest hover:bg-primary-700 transition-colors">
+                Schedule a Consultation
+            </a>
         </div>
     </section>
 
     <!-- Bottom CTA -->
     <section class="w-full grid grid-cols-1 md:grid-cols-2 h-[600px]">
         <div class="relative group overflow-hidden">
-            <img src={ctaLeft} alt="Get inspired" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
-            <div class="absolute inset-0 bg-black/20 group-hover:bg-black/30 transition-colors"></div>
+            <img src={ctaLeft} alt="View our horses" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+            <div class="absolute inset-0 bg-black/30 group-hover:bg-black/40 transition-colors"></div>
             <div class="absolute inset-0 flex flex-col items-center justify-center text-white text-center p-6">
-                <h2 class="font-display text-3xl md:text-4xl mb-2">Get inspired</h2>
-                <p class="text-sm font-light mb-8 opacity-90">Explore our many projects from around the world.</p>
+                <h2 class="font-display text-3xl md:text-4xl mb-2">View Our Portfolio</h2>
+                <p class="text-sm font-light mb-8 opacity-90">Explore current partnership opportunities and meet our horses.</p>
                 <button class="border border-white px-8 py-3 text-xs uppercase tracking-widest hover:bg-white hover:text-black transition-colors">
-                    Order Cases
+                    View Horses
                 </button>
             </div>
         </div>
         <div class="relative group overflow-hidden">
-            <img src={ctaRight} alt="Price Lists" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
-            <div class="absolute inset-0 bg-black/20 group-hover:bg-black/30 transition-colors"></div>
+            <img src={ctaRight} alt="Learn more" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+            <div class="absolute inset-0 bg-black/30 group-hover:bg-black/40 transition-colors"></div>
             <div class="absolute inset-0 flex flex-col items-center justify-center text-white text-center p-6">
-                <h2 class="font-display text-3xl md:text-4xl mb-2">Receive Dinesen Price Lists</h2>
-                <p class="text-sm font-light mb-8 opacity-90">A Dinesen floor sprouts in the dream, but grows from reality.</p>
+                <h2 class="font-display text-3xl md:text-4xl mb-2">Partnership Guide</h2>
+                <p class="text-sm font-light mb-8 opacity-90">Download our comprehensive guide to Thoroughbred co-ownership.</p>
                 <button class="border border-white px-8 py-3 text-xs uppercase tracking-widest hover:bg-white hover:text-black transition-colors">
-                    Explore
+                    Download Guide
                 </button>
             </div>
         </div>
